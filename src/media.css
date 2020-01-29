@@ -1,0 +1,224 @@
+@media only screen and (max-width: 768px) {
+  /* ===============FONT-SIZES=============== */
+  /* TEAM PAGE */
+  .link {
+    font-size: 12px;
+    font-size: 1.5vw;
+  }
+
+  .empty {
+    font-size: 13px;
+    font-size: 1.7vw;
+  }
+  
+  ul.nav li a {
+    font-size: 11px;
+    font-size: 1.5vw;
+  }
+
+  .list-header {
+    font-size: 18px;
+    font-size: 2.2vw;
+  }
+
+  .list-item__btn button {
+    font-size: 12px;
+    font-size: 1.5vw;
+  }
+
+  .filter-content {
+    font-size: 12px;
+    font-size: 1.2vw;
+  }
+
+  .search-input {
+    font-size: 10px;
+    font-size: 1.4vw;
+  }
+
+  .search-input::placeholder {
+    font-size: 9px;
+    font-size: 1.3vw;
+  }
+
+  /* PROFILE PAGE */
+  .profile-card__text p {
+    font-size: 9px;
+    font-size: 1.15vw;
+  }
+
+  .tabs-list .tab {
+    font-size: 12px;
+    font-size: 1.6vw;
+  }
+
+  .item-info__title a.link {
+    font-size: 15px;
+    font-size: 1.9vw;
+  }
+
+  .item-info__title p {
+    font-size: 10px;
+    font-size: 1.3vw;
+  }
+
+  .item-info__description {
+    font-size: 12px;
+    font-size: 1.5vw;
+  }
+  
+  .tags .tags-item {
+    font-size: 9px;
+    font-size: .55em;
+  }
+
+  .item-info__clone p {
+    font-size: 11px;
+    font-size: 1.2vw;
+  }
+
+  /* ===============ELEMENTS=============== */
+  /* TEAM PAGE */
+  .filter-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  ul.nav {
+    min-width: 20vw;
+  }
+
+  /* PROFILE PAGE */
+  .btn-copy {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* ===============FONT-SIZES=============== */
+  /* TEAM PAGE */
+  .link {
+    font-size: 9px;
+    font-size: 2vw;
+  }
+
+  .empty {
+    font-size: 9px;
+    font-size: 2vw;
+  }
+  
+  ul.nav li a {
+    font-size: 8px;
+    font-size: 1.8vw;
+  }
+
+  .list-header {
+    font-size: 11px;
+    font-size: 2.5vw;
+  }
+
+  .list-item__btn button {
+    font-size: 9px;
+    font-size: 1.7vw;
+  }
+
+  .filter-content {
+    font-size: 8px;
+    font-size: 1.9vw;
+  }
+
+  .search-input {
+    font-size: 9px;
+    font-size: 2vw;
+  }
+
+  .search-input::placeholder {
+    font-size: 9px;
+    font-size: 1.8vw;
+  }
+
+  /* PROFILE PAGE */
+  .profile-card__text p {
+    font-size: 6px;
+    font-size: 1.45vw;
+  }
+
+  .tabs-list .tab {
+    font-size: 10px;
+    font-size: 2vw;
+  }
+
+  .item-info__title a.link {
+    font-size: 12px;
+    font-size: 2.6vw;
+  }
+
+  .item-info__title p {
+    font-size: 8px;
+    font-size: 1.8vw;
+  }
+
+  .item-info__description {
+    font-size: 9px;
+    font-size: 2.2vw;
+  }
+  
+  .tags .tags-item {
+    font-size: 8px;
+    font-size: .5em;
+  }
+
+  .item-info__clone p {
+    font-size: 9px;
+    font-size: 2vw;
+  }
+
+  /* ===============ELEMENTS=============== */
+  /* TEAM PAGE */
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-item {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .list-item__avatar {
+    width: 70%;
+  }
+
+  .list-item__avatar img {
+    width: 70%;
+  }
+
+  ul.nav {
+    min-width: 25vw;
+  }
+
+  /* PROFILE PAGE */
+  .profile-card {
+    width: 25%;
+  }
+
+  .btn-copy {
+    width: 8px;
+    height: 8px;
+  }
+
+  .follows-item {
+    width: 40%;
+  }
+
+  .follow-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .follow-avatar img {
+    width: 80%;
+  }
+}
